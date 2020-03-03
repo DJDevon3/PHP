@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="theme/default/css/style.css" />
+<title>Installation Guide</title>
+<style type="text/css">
+body{
+width: 925px;
+background: none;
+margin: 50px;
+color:#FFFFFF;
+}
+</style>
+</head>
+<body>
+
+<h2>2 Installation Choices? (Pure PHP or Database CMS)</h2><br /><br />
+
+<b>Pure PHP:</b><br />
+
+This option is called TT-PHP and is designed to be a lightweight platform for pure PHP designers. If you setup client sites on a regular basis then you know how tedious the initial setup can be.  You have to create directories, pages, headers, meta, css, and possibly a simple template system.<br /><br />
+
+The only core feature included is the template engine because PHP scripters benefit from separating logic and presentation.  Templating can be an easy solution at the very least for keeping your code indents from traveling half the page.  If you absolutely don't want to use the templating engine, or aren't experienced enough to, you don't have to, simply remove the template_eng.inc from index.php and you're free to code as purely as your heart desires.<br /><br /> 
+
+Install TT-PHP as a solid base and you can begin designing immediately.  This is what allows Treasure Trove to be anything you want it to be, from a tiny-scale site to an ever-expanding collosus of a CMS. When TT-PHP is installed it will automatically delete directories that the CMS install would require.  Deleting them is to remove unnecessary bloat for a pure php site.<br /><br />
+
+Directories that a TT-PHP installation will automatically delete:<br />
+/Core/<br />
+/Plugin/<br />
+/Theme/<br />
+/Install/<br /><br />
+
+Features left for TT-PHP:<br />
+HTACCESS<br />
+PHP indexes<br />
+HTML template engine<br />
+CSS file<br /><br />
+
+Later, if you need to upgrade to TT-CMS you must replace missing directories from the core package and run the installer again. You will be presented the installer screen but this time choose Database CMS.  All of your files from your pure PHP work will not be touched in any way giving you a safe and seamless upgrade from one installation to another.<br /><br />
+ 
+<b>Database CMS:</b><br />
+It's a fast and highly efficient means of empowering web developers.  The installation is highly customizable with an emphasis on adding to the core package what you want instead of trying to strip unnecessary bloat after the fact.  We provide the core, some ready-to-use functions, and a couple of plugins to choose from.  Although it might sound minimialistic the scope of the CMS is indeed grand.  How minimal or powerful the CMS becomes is truly up to you.  The possibilities are infinite.<br /><br />
+
+With a few simple clicks during the installation process you can instantly transform your site into anything from a simple blog to a powerhouse of a social network.  You can customize each installation to a clients specific needs with minimal effort before your design phase even begins.  This is what separates Treasure Trove from the rest.<br /><br />
+
+<b>Proprietary Functions?</b><br />
+We want to make it as easy as possible for you to begin working on your own projects.  Trove comes with a good amount of commonly needed functions such as database calls, AJAX plugins, common JQuery framework, time, image resizing, and so on.  The difference between a bloated and lightweight CMS are how many files, folders, functions, or classes you don't need right?  Trove is extremely lightweight and highly extensible giving you unlimited creativity in how you want your CMS to develop over time.<br /><br />
+
+<b>Modularity</b><br />
+We offer a true modular CMS.  Everything from the core to the templates are designed to be upgraded without concern to your ongoing projects.  You will able to do an in-place upgrade in the background while you multi-task your heart out in your favorite IDE.  You have the opportunity to write your own core functions that will have no impact on core upgrades.  Why write your own core functions?  So you can use them globally anywhere your site.  This essentially makes customizing the CMS a very easy task with no worry of killing the site.<br /><br />
+
+<b>Theme Designer Heaven:</b><br />
+Treasure Trove CMS was created by theme designers and module developers who regularly worked with other CMS's but were tired of running into brickwalls put up by the core coding team(s).  This CMS was created to destroy those limitations, elegantly.  We include a few basic themes with different layouts so you can begin designing as soon as you learn the template engine syntax (which is only 3 lines of code).  If you long for the day when you can break away from the blockly CMS's of the past and dive into a new and dynamically created templatable world then your day has arrived.<br /><br />
+
+Some CMS's build walls that don't allow you to design in any other style than they originally envisioned.  That's not the case here but you'll need to learn a lot in order to give your clients a wicked design and powerful backend.  If you can design with PHP, CSS, and HTML then you'll be able to create anything your mind can possibly think of. The first thing you'll probably want to do is get your hands dirty with one of our existing templates.  We've provided a few for you so happy experimenting. We have some world class CMS theme designers in the forums who can answer any question you can throw at them.<br /><br />
+
+<b>You Code It, You Keep It.  Rules for Plugin Developers To Live By:</b><br />
+GPL, LGPL, Creative Commons, and so on...  For designers that have been around Open-Source CMS's for years those words don't conjure up good feelings, in fact just the opposite.  Whatever an Open-Source project touches it keeps, like a greedy red-headed step child.  Treasure Trove is NOT Open-Source for a reason.  We feel that if you put the hard work into creating something you should reap the rewards of your work.  Treasure Trove will not consume your work, claim ownership of it, or belittle you for trying to make money from our community.  Our community is comprised of professional designers and developers... not clients.<br /><br />
+
+You will be developing for other developers who have real clients with real businesses and real problems to solve.  Other developers?  That is correct.  All developers need help. No one can do it all, there's simply not enough time.  The better your skills the more the demand will be for your products and services.  If you are using Trove, and developing plugins, we already assume you're not a beginner.  The core construct is logical and easy to learn.  However, if you have any questions that aren't covered in the wiki or the forums don't hesitate to ask our staff for a little help. <br /><br />
+
+How much should I charge or pay for an addon?  We will let the free market decide that.  Over time it will level itself out with the more complex work costing more and simple work costing less.  You can choose to make a lot of simple modules or dedicate yourself to creating a few large all-inclusive addons.  We provide a marketplace to buy/sell/trade your addons so that we can monitor code integrity and diseminate any error notices en masse. <br /><br />
+
+<b>Copyright & Credit System</b><br />
+Treasure Trove CMS incorporates an extensive versioning and copyright system for plugin developers and template designers.  You will be able to hook into the versioning system to offer your clients automated upgrades if their callbacks are out-of-date or obsolete.  You can choose to have a payable or free upgrade of each revision of your product. You will be able to notify users about special offers (Holidays Only) for all of your product upgrades.  They will see it when they log into their admininistration panel.  We are about to redefine what it means for you to be a website administrator.  It used to be a labor intensive task.  It will soon become an extremely enjoyable and exciting job.<br /><br />
+
+<b>Can I Contribute To The Core?</b><br />
+No... and yes.  You can write custom functions that are automatically appended to the core!  We will also have a dedicated forum for core upgrade ideas.  The choice is up to us whether your idea is acceptable core material.  What constitutes a good idea is often relative and a lot of thought on our parts is required for future proofing.  Just because an idea is a good one and a lot of people agree doesn't mean it will make it in (that's a disclaimer).  It's not because we're lazy or don't listen, it's for a reason and we don't have to tell you what our reasons are. <br /><br />
+
+<b>Can I Become A Core Coder?</b><br />
+You don't ask to be a core coder, you get asked.<br /><br />
+
+<b>Why Is The Core Coding So Basic?</b><br />
+For a reason.  If you're smart enough to ask the question you're smart enough to answer it.<br /><br />
+
+<b>Winning Formula</b><br />
+The principle of Trove is to gather intermediate and expert level developers so we as a professional community can empower ourselves to solve any problem a client might have.  We want to be the CMS with a solution for everything.  Have a client that needs an accounting module?  It's likely someone has what you need, problem solved.  Sound fair?  Alright, let's get to work and help each other code a better internet.<br /><br />
